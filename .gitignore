@@ -1,21 +1,31 @@
-# Ignore VS code configuration
-.vscode/
+# Compiled byte code
+*.o
+*.so
+*.rlib
+*.dll
 
-docs
+# Executables and linked libraries
+*.exe
+*.out
+*.dylib
+*.bin
+
+# Cargo / Rust generated
+/server/target
+**/server/.fingerprint
+
+# Lock file
 server/Cargo.lock
 
-# Ignore binaries, build files, etc.
-*.o
-*.lo
-*.la
-# etc
+# .env file
+.env
 
-# Ignore OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Code
+.vscode/
 
+# Backup files from txt editors
+*~
+*.swp
+*.swo
+*.bak
+*.save
