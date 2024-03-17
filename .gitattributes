@@ -2,3 +2,4 @@
 *.html linguist-detectable=false
 docs/* linguist-documentation
 src/*.h linguist-language=C++
+vendor/* linguist-vendored
