@@ -11,7 +11,7 @@
 *.bin
 
 # Cargo / Rust generated
-/server/target
+server/target
 **/server/.fingerprint
 
 # Lock file
