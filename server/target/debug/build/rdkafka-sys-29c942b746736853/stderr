@@ -1,0 +1,30 @@
+Building and linking librdkafka statically
+Running command: "cp -a librdkafka/. /Users/nicholasweiner/empower-plant/server/target/debug/build/rdkafka-sys-29c942b746736853/out" in dir: .
+Running command: "/Users/nicholasweiner/empower-plant/server/target/debug/build/rdkafka-sys-29c942b746736853/out/configure --disable-ssl --disable-gssapi --disable-zstd --disable-lz4-ext" in dir: /Users/nicholasweiner/empower-plant/server/target/debug/build/rdkafka-sys-29c942b746736853/out
+Running command: "make libs" in dir: /Users/nicholasweiner/empower-plant/server/target/debug/build/rdkafka-sys-29c942b746736853/out
+rdkafka_broker.c:737:13: warning: variable 'idx' set but not used [-Wunused-but-set-variable]
+        int idx = -1;
+            ^
+rdkafka_cgrp.c:1285:13: warning: variable 'not_revoking' set but not used [-Wunused-but-set-variable]
+        int not_revoking = 0;
+            ^
+1 warning generated.
+1 warning generated.
+rdbuf.c:897:16: warning: variable 'remains' set but not used [-Wunused-but-set-variable]
+        size_t remains = size;
+               ^
+rdmap.c:502:13: warning: variable 'fails' set but not used [-Wunused-but-set-variable]
+        int fails = 0;
+            ^
+1 warning generated.
+1 warning generated.
+snappy.c:1412:9: warning: variable 'written' set but not used [-Wunused-but-set-variable]
+        size_t written = 0;
+               ^
+1 warning generated.
+ld: warning: search path '/Users/nicholasweiner/empower-plant/server/target/debug/build/libz-sys-f124bacdad7539e1/out/build' not found
+ld: warning: search path '/Users/nicholasweiner/empower-plant/server/target/debug/build/libz-sys-f124bacdad7539e1/out/build' not found
+ld: warning: search path '/Users/nicholasweiner/empower-plant/server/target/debug/build/libz-sys-f124bacdad7539e1/out/build' not found
+ld: warning: search path '/Users/nicholasweiner/empower-plant/server/target/debug/build/libz-sys-f124bacdad7539e1/out/build' not found
+ld: warning: search path '/Users/nicholasweiner/empower-plant/server/target/debug/build/libz-sys-f124bacdad7539e1/out/build' not found
+ld: warning: search path '/Users/nicholasweiner/empower-plant/server/target/debug/build/libz-sys-f124bacdad7539e1/out/build' not found
